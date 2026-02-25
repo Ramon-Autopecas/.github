@@ -1,6 +1,6 @@
 # RAMON AUTOS PEÇAS
 
-Sistema interno da Ramon Autopeças para sincronização, consulta e exposição de produtos do Mercado Livre.
+Ramon Autopeças é uma **vitrine digital moderna** que funciona como ponte entre o cliente e a loja oficial no Mercado Livre. Diferente de um e-commerce tradicional, o foco é na **apresentação profissional do catálogo** e na **facilitação do contato** via WhatsApp para negociação direta.
 
 A arquitetura é separada em dois projetos independentes:
 - **Backend (API)** — fonte de verdade
@@ -42,8 +42,7 @@ Responsável por:
 
 ### Fonte de Verdade
 
-O Mercado Livre é a única fonte de verdade.
-Qualquer alteração manual no banco local é sobrescrita na próxima sincronização.
+O Mercado Livre é a única fonte de verdade. Qualquer alteração manual no banco local é sobrescrita na próxima sincronização.
 
 ---
 
@@ -71,31 +70,16 @@ Responsável por:
 
 ---
 
-## Execução em Desenvolvimento
-
-Backend:
-
-```bash
-docker compose up --build
-```
-
-Frontend:
-
-```bash
-npm install
-npm run dev
-```
-
----
-
 ## Licença
 
-Proprietário e confidencial.
-Uso restrito à Ramon Autopeças.
+© 2026 Ramon Autopeças. Todos os direitos reservados.
+
+Este projeto é de propriedade exclusiva da Ramon Autopeças. Qualquer uso, reprodução ou distribuição não autorizada deste código é estritamente proibida.
 
 ---
 
 ## Desenvolvimento
 
-Sistema desenvolvido para uso interno e comercial da Ramon Autopeças.
+**Desenvolvido por:** [Arthur Lanznaster](https://github.com/arthurlanz) e [Pedro Henrique Rodrigues](https://github.com/BlackVSK)
 
+**Localização:** Joinville, SC - Brasil
